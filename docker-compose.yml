@@ -1,0 +1,11 @@
+version: '3.0'
+
+services:
+  app:
+    image: ytch-category
+    container_name: ytch-category
+    build: .
+    volumes:
+      - ./:/usr/src/app
+    command: npm run build
+    
