@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
 
-  "name": "Chrome Extension TypeScript Starter",
-  "description": "Chrome Extension, TypeScript, Visual Studio Code",
-  "version": "1.0",
+  "name": "YouTube Channel Category",
+  "version": "1.0.0",
+  "description": "This make you to categorise your YouTube channels at will. Just like a bookshell.",
 
   "options_ui": {
     "page": "options.html"
@@ -16,7 +16,7 @@
 
   "content_scripts": [
       {
-          "matches": ["<all_urls>"],
+          "matches": ["https://www.youtube.com/*/*"],
           "js": ["js/vendor.js", "js/content_script.js"]
       }
   ],
