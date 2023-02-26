@@ -1,7 +1,7 @@
 {
-  "name": "YouTube Channel Shelf",
+  "name": "youtube-channel-shelf",
   "version": "1.0.0",
-  "description": "This make you to categorise your YouTube channels at will. Just like a bookshelf.",
+  "description": "This make you to categories your YouTube channels at will. Just like a bookshelf.",
   "main": "index.js",
   "scripts": {
     "watch": "webpack --config webpack/webpack.dev.js --watch",
@@ -17,7 +17,6 @@
     "url": "https://github.com/ennir0508/youtube-chennel-category"
   },
   "dependencies": {
-    "eslint-config-prettier": "^8.6.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
@@ -30,6 +29,7 @@
     "copy-webpack-plugin": "^9.0.1",
     "eslint": "^8.31.0",
     "eslint-config-standard-with-typescript": "^27.0.1",
+    "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-import": "^2.27.4",
     "eslint-plugin-n": "^15.6.1",
     "eslint-plugin-promise": "^6.1.1",

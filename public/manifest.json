@@ -3,7 +3,7 @@
 
   "name": "YouTube Channel Shelf",
   "version": "1.0.0",
-  "description": "This make you to categorise your YouTube channels at will. Just like a bookshelf.",
+  "description": "This make you to categories your YouTube channels at will. Just like a bookshelf.",
 
   "options_ui": {
     "page": "options.html"
